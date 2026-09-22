@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "doors_but_minecraft",
+  "version": "1.0.0",
+  "name": "doors but minecraft",
+  "authors": [
+    "MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Not specified",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.doorsbutminecraft.DoorsButMinecraftMod"
+    ],
+    "client": [
+      "net.mcreator.doorsbutminecraft.DoorsButMinecraftModClient"
+    ]
+  },
+  "mixins": [
+    "doors_but_minecraft.mixins.json"
+  ],
+  "accessWidener": "META-INF/doors_but_minecraft.classtweaker",
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
