@@ -4,6 +4,6 @@
     "0": "doors_but_minecraft:block/texture",
     "1": "doors_but_minecraft:block/bottle",
     "2": "doors_but_minecraft:block/cap",
-    "particle": "minecraft:item/beef"
+    "particle": "minecraft:item/angler_pottery_sherd"
   }
 }

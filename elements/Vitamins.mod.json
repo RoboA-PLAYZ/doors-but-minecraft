@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "minecraft:beef",
+    "texture": "minecraft:angler_pottery_sherd",
     "customModelName": "vitamin:default",
     "guiTexture": "",
     "customProperties": {},
