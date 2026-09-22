@@ -1,0 +1,9 @@
+{
+  "parent": "doors_but_minecraft:custom/vitamin",
+  "textures": {
+    "0": "doors_but_minecraft:block/texture",
+    "1": "doors_but_minecraft:block/bottle",
+    "2": "doors_but_minecraft:block/cap",
+    "particle": "minecraft:item/beef"
+  }
+}

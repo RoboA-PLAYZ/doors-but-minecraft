@@ -8,6 +8,9 @@ import org.apache.logging.log4j.LogManager;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.server.TickTask;
 
+import net.mcreator.doorsbutminecraft.init.DoorsButMinecraftModTabs;
+import net.mcreator.doorsbutminecraft.init.DoorsButMinecraftModItems;
+
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.fabricmc.api.ModInitializer;
@@ -34,6 +37,8 @@ public class DoorsButMinecraftMod implements ModInitializer {
 		// Start of user code block mod constructor
 		// End of user code block mod constructor
 		LOGGER.info("Initializing DoorsButMinecraftMod");
+		DoorsButMinecraftModTabs.load();
+		DoorsButMinecraftModItems.load();
 		tick();
 		// Start of user code block mod init
 		// End of user code block mod init
